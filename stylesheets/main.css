@@ -1,4 +1,93 @@
 body {
   background: #FFFFFF url('../images/1.jpg');
   background-size: cover;
+
+  font-family: Arial;
+}
+
+.container {
+  position:absolute;
+  top:0;
+  right:0;
+
+  width: 50%;
+  height:100%;
+
+
+  background: rgba(0,0,0,0.5);
+}
+
+.container .header {
+  position:relative;
+  width:100%;
+  height: 50px;
+
+  background: #202020;
+}
+
+.container .header .bar {
+  position:relative;
+  color: #FFF;
+  height: 70%;
+}
+
+.container .header .bar .right {
+  position:relative;
+  text-align: right;
+  padding-right: 1em;
+  height:100%;
+}
+
+.container .header .bar .right p {
+  position:absolute;
+  top: 50%;
+  right: 0.5em;
+  transform:translateY(-50%);
+  font-size: 80%;
+}
+
+.container .header .bar h1 {
+  font-size: 1.1em;
+  position:absolute;
+  top:50%;
+  left: 1em;
+  transform: translateY(-50%);
+}
+
+.container .header .nav {
+  width: 100%;
+  height:30%;
+  position:absolute;
+  bottom:0;
+
+  background: #A24211;
+}
+
+.container .header .nav ul {
+  list-style: none;
+}
+
+.container .header .nav ul li {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  position:relative;
+}
+
+.container .header .nav ul li p {
+  color: #FFF;
+  font-size: 0.7em;
+  position:absolute;
+  left:50%;
+  transform:translate(-50%, -100%);
+}
+
+.left {
+  position: relative;
+  left: 0;
+}
+
+.right {
+  position: relative;
+  right: 0;
 }
