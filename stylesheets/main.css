@@ -98,6 +98,34 @@ body {
   font-weight: bold;
 }
 
+.container .content ul.images li {
+  display: inline-block;
+  width: 30%;
+  height: 20%;
+  padding: 0 1em;
+  text-align:center;
+}
+
+.container .content ul.images li div {
+  height: 100%;
+  width: 100%;
+
+  background-size: cover !important;
+  background-position: center center;
+
+  border: 1px solid #D58936;
+}
+
+li#img1 div {
+  background-image: url('../images/2.jpg');
+}
+li#img2 div {
+  background-image: url('../images/5.jpg');
+}
+li#img3 div {
+  background-image: url('../images/6.jpg');
+}
+
 .left {
   position: relative;
   left: 0;
