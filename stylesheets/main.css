@@ -3,6 +3,7 @@ body {
   background-size: cover;
 
   font-family: Arial;
+  color: #FFF;
 }
 
 .container {
@@ -27,7 +28,6 @@ body {
 
 .container .header .bar {
   position:relative;
-  color: #FFF;
   height: 70%;
 }
 
@@ -75,11 +75,27 @@ body {
 }
 
 .container .header .nav ul li p {
-  color: #FFF;
   font-size: 0.7em;
   position:absolute;
   left:50%;
   transform:translate(-50%, -100%);
+}
+
+.container .content {
+  position:relative;
+  top: 1em;
+  width: 95%;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.container .content * {
+  padding: 0.5em 0;
+  font-size: 75%;
+}
+
+.container .content h2 {
+  font-weight: bold;
 }
 
 .left {
