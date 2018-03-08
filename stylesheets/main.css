@@ -101,9 +101,8 @@ body {
 .container .content ul.images li {
   display: inline-block;
   width: 30%;
-  height: 20%;
+  height: 22.5%;
   padding: 0 1em;
-  text-align:center;
 }
 
 .container .content ul.images li div {
@@ -114,6 +113,15 @@ body {
   background-position: center center;
 
   border: 1px solid #D58936;
+
+  position:relative;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.container .content ul.images li p {
+  font-weight: bold;
+  font-size: 125%;
 }
 
 li#img1 div {
