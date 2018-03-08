@@ -85,6 +85,7 @@ body {
   position:relative;
   top: 1em;
   width: 95%;
+  height: 100%;
   left:50%;
   transform:translateX(-50%);
 }
@@ -132,6 +133,21 @@ li#img2 div {
 }
 li#img3 div {
   background-image: url('../images/6.jpg');
+}
+
+.container .footer {
+  position:absolute;
+  bottom:1em;
+
+  width: 95%;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.container .footer p {
+  font-size: 50%;
+  position:relative;
+
 }
 
 .left {
