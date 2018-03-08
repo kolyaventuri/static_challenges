@@ -1,0 +1,161 @@
+body {
+  background: #FFFFFF url('../images/1.jpg');
+  background-size: cover;
+
+  font-family: Arial;
+  color: #FFF;
+}
+
+.container {
+  position:absolute;
+  top:0;
+  right:0;
+
+  width: 50%;
+  height:100%;
+
+
+  background: rgba(0,0,0,0.5);
+}
+
+.container .header {
+  position:relative;
+  width:100%;
+  height: 50px;
+
+  background: #202020;
+}
+
+.container .header .bar {
+  position:relative;
+  height: 70%;
+}
+
+.container .header .bar .right {
+  position:relative;
+  text-align: right;
+  padding-right: 1em;
+  height:100%;
+}
+
+.container .header .bar .right p {
+  position:absolute;
+  top: 50%;
+  right: 0.5em;
+  transform:translateY(-50%);
+  font-size: 80%;
+}
+
+.container .header .bar h1 {
+  font-size: 1.1em;
+  position:absolute;
+  top:50%;
+  left: 1em;
+  transform: translateY(-50%);
+}
+
+.container .header .nav {
+  width: 100%;
+  height:30%;
+  position:absolute;
+  bottom:0;
+
+  background: #A24211;
+}
+
+.container .header .nav ul {
+  list-style: none;
+}
+
+.container .header .nav ul li {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  position:relative;
+}
+
+.container .header .nav ul li p {
+  font-size: 0.7em;
+  position:absolute;
+  left:50%;
+  transform:translate(-50%, -100%);
+}
+
+.container .content {
+  position:relative;
+  top: 1em;
+  width: 95%;
+  height: 100%;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.container .content * {
+  padding: 0.5em 0;
+  font-size: 75%;
+}
+
+.container .content h2 {
+  font-weight: bold;
+}
+
+.container .content ul.images li {
+  display: inline-block;
+  width: 30%;
+  height: 22.5%;
+  padding: 0 1em;
+}
+
+.container .content ul.images li div {
+  height: 100%;
+  width: 100%;
+
+  background-size: cover !important;
+  background-position: center center;
+
+  border: 1px solid #D58936;
+
+  position:relative;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.container .content ul.images li p {
+  font-weight: bold;
+  font-size: 125%;
+}
+
+li#img1 div {
+  background-image: url('../images/2.jpg');
+}
+li#img2 div {
+  background-image: url('../images/5.jpg');
+}
+li#img3 div {
+  background-image: url('../images/6.jpg');
+}
+
+.container .footer {
+  position:absolute;
+  bottom:1em;
+
+  width: 95%;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.container .footer p {
+  font-size: 50%;
+  position:relative;
+
+}
+
+.left {
+  position: relative;
+  left: 0;
+}
+
+.right {
+  position: relative;
+  right: 0;
+}
