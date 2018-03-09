@@ -89,8 +89,38 @@ body {
   width: 100%;
 }
 
+.content .col.hero .info {
+  padding: 1em;
+}
+
+.content .col.hero .info * {
+  padding: 0.5em 1.5em;
+  font-size: 75%;
+}
+
+.content .col.hero .info h2 {
+    font-size: 1.25em;
+    font-weight: bold;
+    padding-left: 0.5em;
+}
+
 .content .col.images {
   width: 25%;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+
+  background: #1D1D1D;
+  color: #FFF;
+
+  padding: 1em 0;
+}
+
+.footer p {
+  padding: 0.5em 1.5em;
+  font-size: 75%;
 }
 
 .left {
